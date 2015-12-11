@@ -1,0 +1,91 @@
+
+body {
+	font-family: "Tebuchet MC", "Tebuchet", Arial, sans-serif;
+	color: #EB7E7F;
+	background-size: 100%;
+	background: #3B3F45;
+	border: white solid 25px;
+	padding:0;
+	margin: 0;
+}
+
+header {
+	background: #4A4F56;
+	height: 115px;
+	text-align: center;
+}
+h1 {
+	padding: 0;
+	padding-top: 25px;
+	font-size: 35px;
+	margin:0;
+}
+header p {
+	padding: 0;
+	margin:0;
+	margin-top: 5px;
+	font-size: 22px;
+}
+.allcontent {
+	width: 800px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom: 90px;
+}
+
+main {
+	height: 385px;
+padding-top:20px;
+font-size:25px;
+}
+li {
+	 list-style-type: none;
+	color: white;
+	 padding: 15px;
+}
+label {
+	display: block;
+}
+li:nth-child(odd) {
+	background: #88839E;
+}
+li:nth-child(even) {
+	background: #77758D;
+	}
+small:before {
+	content: "(";
+	padding-left: 5px;
+}
+small:after {
+	content: ")";
+	padding-right: 5px;
+}
+.Sake:after {
+	content: "^_^";
+	padding-left: 5px;
+}
+ul li:active {
+	text-decoration: line-through;
+	background: #EB7E7F;
+}
+li:hover {
+	background: #5E6072;
+	border-top: white solid 3px;
+	border-bottom: white solid 3px;
+}
+input:checked + span{
+	text-decoration: line-through;
+	color: #77758D;
+}
+footer {
+	background: #4A4F56;
+	font-size: 28px;
+	text-align: center;
+	margin-top:30px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 38px;}
+footer p:after {
+	content: ":)";
+	padding-left: 5px;
+	}
